@@ -24,10 +24,8 @@
 
 ## 📊 GitHub Stats
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=LKA09&show_icons=true&theme=transparent" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=transparent" />
-
+  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LKA09&show_icons=true&theme=transparent" />
+  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=transparent" />
 </div>
 
 ---
