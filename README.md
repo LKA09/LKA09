@@ -23,9 +23,7 @@
 ---
 
 ## 📊 GitHub Stats
-<div align="center">
 [![LKA09's GitHub stats](https://github-readme-stats.vercel.app/api?username=LKA09&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
-</div>
 
 ---
 
