@@ -4,8 +4,7 @@
 **LKA09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 <p>
-<img src="https://skillicons.dev/icons?i=py,java,cs,js,ts,nodejs,react,nextjs,nestjs,postgres,tailwind,flutter,dart,unity,git,github,vscode,visualstudio,idea,notion,discord,npm,html,css,kali,docker,blender,supabase,firebase&perline=11&theme=dark" /></p>
-
+<img src="https://skillicons.dev/icons?i=py,java,cs,js,ts,html,css,tailwind,react,nextjs,nodejs,nestjs,postgres,supabase,firebase,npm,git,github,vscode,visualstudio,idea,powershell,docker,ubuntu,kali,raspberrypi,flutter,dart,unity,blender,notion,discord,stackoverflow&perline=11&theme=dark" />
 </div>
 
 ---
