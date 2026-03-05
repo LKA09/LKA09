@@ -24,13 +24,12 @@
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LKA09&show_icons=true&theme=transparent" />
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=transparent" />
+[![LKA09's GitHub stats](https://github-readme-stats.vercel.app/api?username=LKA09&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 ---
 
-## 🔥 Streak (optional)
+## 🔥 Streak
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
