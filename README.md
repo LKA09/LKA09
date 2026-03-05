@@ -23,11 +23,6 @@
 ---
 
 ## 📊 GitHub Stats
-[![LKA09's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LKA09&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## 🔥 Streak
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
