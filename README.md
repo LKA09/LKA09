@@ -23,4 +23,5 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
+  github-readme-stats.vercel.app/api/top-langs/?username=LKA09&langs_count=3
 </div>
