@@ -23,10 +23,3 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
-
-<div align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8"
-    height="180"
-  />
-</div>
