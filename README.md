@@ -23,3 +23,9 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
+
+## 🧑‍💻 Most Used Languages
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=transparent" />
+</div>
