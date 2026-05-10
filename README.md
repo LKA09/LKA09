@@ -24,9 +24,9 @@
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
 
-## 🧑‍💻 Most Used Languages
-
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LKA09&theme=transparent" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LKA09&theme=transparent" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=LKA09&layout=compact&theme=github_dark_dimmed&hide_border=true&langs_count=8"
+    height="180"
+  />
 </div>
