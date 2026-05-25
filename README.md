@@ -23,3 +23,5 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
+
+<img src="https://github-readme-stats.vercel.app/api?username=LKA09" />
