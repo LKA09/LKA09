@@ -23,3 +23,9 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
+
+<div align="center">
+
+![LKA09's GitHub stats](https://github-readme-stats.vercel.app/api?username=LKA09&show_icons=true&theme=github_dark)
+
+</div>
