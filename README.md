@@ -22,5 +22,4 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
-  <img src="https://github-readme-stats.vercel.app/api?username=LKA09&show_icons=true&include_all_commits=true&theme=transparent" />
 </div>
