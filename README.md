@@ -23,4 +23,9 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
-[![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=LKA09)](https://github.com/LKA09/github-readme-stats)
+<a href="https://github.com/LKA09/github-readme-stats">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=LKA09"
+    alt="minseon yu's GitHub stats"
+  />
+</a>
