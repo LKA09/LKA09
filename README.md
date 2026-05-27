@@ -20,14 +20,19 @@
 ---
 
 ## 📊 GitHub Stats
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
-</div>
 
-<p align="center">
+<div align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=LKA09&theme=transparent"
+    alt="GitHub Streak"
+    height="180"
+  />
+  &nbsp;&nbsp;
   <img
     src="https://github-readme-stats-ten-theta-85.vercel.app/api?username=LKA09&show_icons=true&theme=tokyonight&hide_rank=true&cache_seconds=86400"
     alt="LKA09's GitHub stats"
+    height="180"
   />
-</p>
+</div>
+
 
