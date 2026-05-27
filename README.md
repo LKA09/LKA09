@@ -25,10 +25,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      src="https://github-readme-stats-ten-theta-85.vercel.app/api?username=LKA09&show_icons=true&theme=tokyonight&cache_seconds=86400"
-      alt="LKA09's GitHub stats"
-    />
-  </a>
+  <img
+    src="https://github-readme-stats-ten-theta-85.vercel.app/api?username=LKA09&show_icons=true&theme=tokyonight&hide_rank=true&cache_seconds=86400"
+    alt="LKA09's GitHub stats"
+  />
 </p>
+
