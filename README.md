@@ -23,4 +23,6 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=LKA09&theme=transparent" />
 </div>
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=LKA09" alt="GitHub Readme Stats for LKA09">
+</a>
