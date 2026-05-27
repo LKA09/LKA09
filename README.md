@@ -9,13 +9,13 @@
 ---
 
 ## 🧠 About me
-- 💻 Full-stack-ish: **React / Next.js / Node / NestJS**
+- 💻 Full-stack-ish: **React / Next.js / Node / NestJS / SpringBoot**
 - 🗃️ Data: **PostgreSQL**
 - 🎨 UI: **TailwindCSS**
 - 🧪 Also: **Python, Java, C#**
 - 📱 Mobile: **Flutter (Dart)**
 - 🎮 Game: **Unity**
-- 🧰 Tools: **Git/GitHub, VS Code, Visual Studio, Notion, Discord**
+- 🧰 Tools: **Git/GitHub, VS Code, Visual Studio, PowerShell, Bash**
 
 ---
 
