@@ -34,4 +34,6 @@
     height="180"
   />
 </div>
-
+<div align="center">
+<a href="https://www.git-ranker.com/en/users/LKA09"><img src="https://www.git-ranker.com/api/v1/badges/U_kgDOBx4quQ" alt="Git Ranker Badge" /></a>
+<div>
