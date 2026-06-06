@@ -21,7 +21,7 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<!-- <div align="center">
   <img
     src="https://streak-stats.demolab.com?user=LKA09&theme=transparent"
     alt="GitHub Streak"
@@ -33,7 +33,7 @@
     alt="LKA09's GitHub stats"
     height="180"
   />
-</div>
+</div> -->
 <div align="center">
 <a href="https://www.git-ranker.com/en/users/LKA09"><img src="https://www.git-ranker.com/api/v1/badges/U_kgDOBx4quQ" alt="Git Ranker Badge" /></a>
 <div>
