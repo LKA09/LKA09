@@ -36,5 +36,5 @@
 </div> -->
 <div align="center">
 <a href="https://www.git-ranker.com/en/users/LKA09"><img src="https://www.git-ranker.com/api/v1/badges/U_kgDOBx4quQ" alt="Git Ranker Badge" /></a>
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Lee-yeonjin&layout=compact&theme=dracula" alt="Top Langs" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Lka09&layout=compact&theme=dark" alt="Top Langs" />
 <div>
