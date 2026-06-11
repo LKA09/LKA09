@@ -2,22 +2,21 @@
 
 
 **LKA09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building things across web, backend, mobile, and game development.
 
 <p>
 <img src="https://skillicons.dev/icons?i=py,java,cs,rust,js,ts,react,nextjs,tailwind,html,css,nodejs,nestjs,spring,postgres,supabase,firebase,flutter,dart,unity,blender,git,github,npm,docker,ubuntu,kali,raspberrypi,vscode,visualstudio,idea,powershell,bash&perline=11&theme=dark" /></div>
 
 ---
 
-## 🧠 About me
+<!-- ## 🧠 About me
 - 💻 Full-stack-ish: **React / Next.js / Node / NestJS / SpringBoot**
 - 🗃️ Data: **PostgreSQL**
 - 🎨 UI: **TailwindCSS**
 - 🧪 Also: **Python, Java, C#**
 - 📱 Mobile: **Flutter (Dart)**
 - 🎮 Game: **Unity**
-- 🧰 Tools: **Git/GitHub, VS Code, Visual Studio, PowerShell, Bash**
-
----
+- 🧰 Tools: **Git/GitHub, VS Code, Visual Studio, PowerShell, Bash** -->
 
 ## 📊 GitHub Stats
 
