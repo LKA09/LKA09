@@ -1,0 +1,37 @@
+name: Update profile art
+
+"on":
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  profile-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Fetch contribution data
+        env:
+          GH_PROFILE_USER: LKA09
+        run: python scripts/fetch_contributions.py
+      - name: Generate contribution heatmap
+        run: python scripts/generate_streak_svg.py LKA09 contrib-heatmap.svg
+      - name: Generate profile cards
+        run: |
+          python scripts/make_ascii_card.py
+          python scripts/make_info_card.py
+      - name: Commit updated profile art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg lka09-ascii.svg info-card.svg"
