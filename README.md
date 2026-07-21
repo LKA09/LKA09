@@ -12,7 +12,7 @@
 <tr>
 <td valign="top">
 <img
-  src="./lka09-ascii.svg"
+  src="./lka09-ascii.svg?v=10f5f97ac8b3"
   width="370"
   alt="LKA09 ASCII portrait"
 />

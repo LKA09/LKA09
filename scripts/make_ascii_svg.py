@@ -4,7 +4,9 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
+import re
 from pathlib import Path
 
 from PIL import Image, ImageOps
@@ -13,6 +15,7 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = ROOT / "processed-photo.png"
 DEFAULT_OUTPUT = ROOT / "lka09-ascii.svg"
+DEFAULT_README = ROOT / "README.md"
 ASCII_CHARS = "@%#*+=-:. "
 SVG_WIDTH = 370
 SVG_HEIGHT = 376
@@ -68,19 +71,37 @@ def render_svg(lines: list[str]) -> str:
     return "\n".join(parts) + "\n"
 
 
+def update_readme_cache_key(readme_path: Path, svg: str) -> str:
+    cache_key = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+    readme = readme_path.read_text(encoding="utf-8")
+    updated, replacements = re.subn(
+        r'src="\./lka09-ascii\.svg(?:\?v=[0-9a-f]+)?"',
+        f'src="./lka09-ascii.svg?v={cache_key}"',
+        readme,
+        count=1,
+    )
+    if replacements != 1:
+        raise RuntimeError("Could not find the ASCII portrait image in README.md")
+    readme_path.write_text(updated, encoding="utf-8", newline="\n")
+    return cache_key
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", nargs="?", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("output", nargs="?", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--readme", type=Path, default=DEFAULT_README)
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     lines = photo_to_ascii(args.input)
+    svg = render_svg(lines)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(render_svg(lines), encoding="utf-8", newline="\n")
-    print(f"Generated {args.output} from {args.input}")
+    args.output.write_text(svg, encoding="utf-8", newline="\n")
+    cache_key = update_readme_cache_key(args.readme, svg)
+    print(f"Generated {args.output} from {args.input} (cache key: {cache_key})")
 
 
 if __name__ == "__main__":
