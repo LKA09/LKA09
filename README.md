@@ -10,7 +10,13 @@
 
 <table>
 <tr>
-<td valign="top"><img src="./lka09-ascii.svg" width="370" alt="LKA09 ASCII terminal card" /></td>
+<td valign="top">
+<img
+  src="./lka09-ascii.svg"
+  width="370"
+  alt="LKA09 ASCII portrait"
+/>
+</td>
 <td valign="top"><img src="./info-card.svg" width="490" alt="LKA09 stack and profile information" /></td>
 </tr>
 </table>

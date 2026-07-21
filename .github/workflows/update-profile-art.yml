@@ -20,16 +20,22 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+      - name: Download GitHub profile photo
+        run: curl --fail --location --retry 3 --output profile-photo.png "https://github.com/LKA09.png?size=460"
+      - name: Prepare profile photo
+        run: python scripts/prep_photo.py
+      - name: Generate ASCII portrait
+        run: python scripts/make_ascii_svg.py
+      - name: Remove temporary profile photos
+        run: rm -f profile-photo.png processed-photo.png
       - name: Fetch contribution data
         env:
           GH_PROFILE_USER: LKA09
         run: python scripts/fetch_contributions.py
       - name: Generate contribution heatmap
         run: python scripts/generate_streak_svg.py LKA09 contrib-heatmap.svg
-      - name: Generate profile cards
-        run: |
-          python scripts/make_ascii_card.py
-          python scripts/make_info_card.py
+      - name: Generate profile info card
+        run: python scripts/make_info_card.py
       - name: Commit updated profile art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
