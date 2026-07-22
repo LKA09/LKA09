@@ -25,7 +25,7 @@
 
 <h3><code>lka09@github ~ $ ./links.sh</code></h3>
 
-<p><b>Web · Backend · Mobile · Game Developer</b></p>
+<p><b>Student Developer</b></p>
 
 [![GitHub](https://img.shields.io/badge/GitHub-LKA09-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LKA09)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Portfolio__Blog-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://github.com/LKA09/Portfolio_Blog)
