@@ -37,7 +37,6 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-LKA09-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LKA09)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Portfolio__Blog-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://github.com/LKA09/Portfolio_Blog)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flka09&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=profile%20views&edge_flat=false)](https://hits.seeyoufarm.com)
-<br>
+![Profile Views](https://komarev.com/ghpvc/?username=lka09&color=blue&style=flat-square&label=PROFILE+VIEWS)<br>
 
 </div>
