@@ -37,6 +37,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-LKA09-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LKA09)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Portfolio__Blog-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://github.com/LKA09/Portfolio_Blog)
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/lka09&title=profile%20views)
 
 <br>
 
