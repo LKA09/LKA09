@@ -1,43 +1,15 @@
 {
   "username": "LKA09",
-  "generated_at": "2026-08-01T08:33:58Z",
-  "total_contributions": 706,
-  "active_days": 339,
-  "current_streak": 14,
-  "longest_streak": 310,
+  "generated_at": "2026-08-02T08:36:53Z",
+  "total_contributions": 695,
+  "active_days": 333,
+  "current_streak": 15,
+  "longest_streak": 303,
   "best_day": {
     "date": "2026-06-19",
     "count": 28
   },
   "days": [
-    {
-      "date": "2025-07-27",
-      "count": 2
-    },
-    {
-      "date": "2025-07-28",
-      "count": 2
-    },
-    {
-      "date": "2025-07-29",
-      "count": 1
-    },
-    {
-      "date": "2025-07-30",
-      "count": 4
-    },
-    {
-      "date": "2025-07-31",
-      "count": 1
-    },
-    {
-      "date": "2025-08-01",
-      "count": 1
-    },
-    {
-      "date": "2025-08-02",
-      "count": 1
-    },
     {
       "date": "2025-08-03",
       "count": 1
@@ -1492,6 +1464,10 @@
     },
     {
       "date": "2026-08-01",
+      "count": 1
+    },
+    {
+      "date": "2026-08-02",
       "count": 0
     }
   ]
