@@ -26,7 +26,6 @@
 <h3><code>lka09@github ~ $ ./status.sh</code></h3>
 
 <a href="https://www.git-ranker.com/en/users/LKA09"><img src="https://www.git-ranker.com/api/v1/badges/U_kgDOBx4quQ" alt="Git Ranker Badge" /></a>
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Lka09&layout=compact&theme=dark" alt="Top Langs" />
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=lka09&theme=tokyonight&date_format=%5BY.%5Dm.%5Dd"/>
 
 <br><br>
