@@ -26,6 +26,7 @@
 <h3><code>lka09@github ~ $ ./status.sh</code></h3>
 
 <a href="https://www.git-ranker.com/en/users/LKA09"><img src="https://www.git-ranker.com/api/v1/badges/U_kgDOBx4quQ" alt="Git Ranker Badge" /></a>
+[![lka09's GitHub stats](https://github-readme-stats.vercel.app/api?username=lka09&show_icons=true&theme=tokyonight)](https://github.com/lka09)
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=lka09&theme=tokyonight&date_format=%5BY.%5Dm.%5Dd"/>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lka09&layout=compact&theme=tokyonight)](https://github.com/lka09)
 
