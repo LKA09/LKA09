@@ -32,9 +32,13 @@
 
 ### Open Source
 
-**[Chai.js](https://github.com/chaijs) · Contributor**
+**[Chai.js](https://github.com/chaijs/chai) · Contributor**
 
-Contributing to the JavaScript assertion and testing ecosystem.
+**[PR #1895 — Fix Symbol-key handling in `.keys()` assertions](https://github.com/chaijs/chai/pull/1895)** · Merged
+
+Fixed a bug where object-based key expectations ignored enumerable `Symbol` keys. Updated the core assertion logic, documentation, and regression tests.
+
+<sub>`lib/chai/core/assertions.js` · `test/expect.js`</sub>
 
 <br />
 
