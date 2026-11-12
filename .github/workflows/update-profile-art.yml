@@ -35,7 +35,7 @@ jobs:
           path = Path("README.md")
           content = path.read_text(encoding="utf-8")
           stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          replacement = "<!-- PROFILE_SYNC_START -->" + stamp + "<!-- PROFILE_SYNC_END -->"
+          replacement = "<!-- PROFILE_SYNC_START -->" + "<!-- " + stamp + " -->" + "<!-- PROFILE_SYNC_END -->"
           content, count = re.subn(
               r"<!-- PROFILE_SYNC_START -->.*?<!-- PROFILE_SYNC_END -->",
               replacement,
