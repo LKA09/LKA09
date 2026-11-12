@@ -1,42 +1,31 @@
-name: Update profile art
+name: Daily profile refresh
 
-"on":
+on:
   schedule:
     - cron: "17 6 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
 jobs:
-  profile-art:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
-      - name: Download GitHub profile photo
-        run: curl --fail --location --retry 3 --output profile-photo.png "https://github.com/LKA09.png?size=460"
-      - name: Prepare profile photo
-        run: python scripts/prep_photo.py
-      - name: Generate ASCII portrait
-        run: python scripts/make_ascii_svg.py
-      - name: Remove temporary profile photos
-        run: rm -f profile-photo.png processed-photo.png
-      - name: Fetch contribution data
-        env:
-          GH_PROFILE_USER: LKA09
-        run: python scripts/fetch_contributions.py
-      - name: Generate contribution heatmap
+
+      - name: Refresh contribution graph
+        continue-on-error: true
         run: python scripts/generate_streak_svg.py LKA09 contrib-heatmap.svg
-      - name: Generate profile info card
-        run: python scripts/make_info_card.py
-      - name: Stamp daily README sync time
+
+      - name: Stamp daily README refresh
         run: |
           python - <<'PY'
           from datetime import datetime, timezone
@@ -47,13 +36,19 @@ jobs:
           content = path.read_text(encoding="utf-8")
           stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
           replacement = "<!-- PROFILE_SYNC_START -->" + stamp + "<!-- PROFILE_SYNC_END -->"
-          updated, replacements = re.subn(r"<!-- PROFILE_SYNC_START -->.*?<!-- PROFILE_SYNC_END -->", replacement, content, count=1)
-          if replacements != 1:
-              raise SystemExit("Missing README sync marker")
-          path.write_text(updated, encoding="utf-8")
+          content, count = re.subn(
+              r"<!-- PROFILE_SYNC_START -->.*?<!-- PROFILE_SYNC_END -->",
+              replacement,
+              content,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit("README sync marker not found")
+          path.write_text(content, encoding="utf-8")
           PY
-      - name: Commit updated profile art
+
+      - name: Commit daily refresh
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh profile art [skip ci]"
-          file_pattern: "README.md data/contributions.json contrib-heatmap.svg lka09-ascii.svg info-card.svg"
+          commit_message: "chore(profile): daily refresh [skip ci]"
+          file_pattern: "README.md contrib-heatmap.svg"
