@@ -47,6 +47,6 @@ Contributing to the JavaScript assertion and testing ecosystem.
 
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=LKA09&base=2000&style=flat-square&color=30363d&label=views" alt="Profile views (including 2,000 baseline)" />
-  <br />
-  <sub>2,000 starting offset · Updated daily: <!-- PROFILE_SYNC_START -->2026-11-12 01:24 UTC<!-- PROFILE_SYNC_END --></sub>
 </p>
+
+<!-- PROFILE_SYNC_START --><!-- 2026-11-12 01:24 UTC --><!-- PROFILE_SYNC_END -->
