@@ -36,6 +36,22 @@ jobs:
         run: python scripts/generate_streak_svg.py LKA09 contrib-heatmap.svg
       - name: Generate profile info card
         run: python scripts/make_info_card.py
+      - name: Stamp daily README sync time
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import re
+
+          path = Path("README.md")
+          content = path.read_text(encoding="utf-8")
+          stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          replacement = "<!-- PROFILE_SYNC_START -->" + stamp + "<!-- PROFILE_SYNC_END -->"
+          updated, replacements = re.subn(r"<!-- PROFILE_SYNC_START -->.*?<!-- PROFILE_SYNC_END -->", replacement, content, count=1)
+          if replacements != 1:
+              raise SystemExit("Missing README sync marker")
+          path.write_text(updated, encoding="utf-8")
+          PY
       - name: Commit updated profile art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
