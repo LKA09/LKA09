@@ -16,17 +16,15 @@
 
 <br />
 
-### Stack
+### Tech Stack
 
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,postgres,docker&theme=dark" alt="Node.js, NestJS, Spring Boot, PostgreSQL, Docker" height="42" />
-
-| | |
+| Area | Technologies |
 | :-- | :-- |
-| **Backend** | Node.js · NestJS · Spring Boot · Python · Java |
-| **Frontend** | Next.js · Remix · React |
 | **Languages** | Rust · Python · TypeScript · JavaScript · Java · SQL |
-| **Data** | PostgreSQL · Supabase · Firebase |
-| **Infrastructure** | Docker · Git · Linux |
+| **Frontend** | Next.js · Remix · React |
+| **Backend** | Node.js · NestJS · Spring Boot |
+| **Database & Services** | PostgreSQL · Supabase · Firebase |
+| **Tools & Infrastructure** | Docker · Git · Linux |
 
 <br />
 
