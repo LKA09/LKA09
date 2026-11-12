@@ -24,7 +24,9 @@
 | **Frontend** | Next.js · Remix · React |
 | **Backend** | Node.js · NestJS · Spring Boot |
 | **Database & Services** | PostgreSQL · Supabase · Firebase |
-| **Tools & Infrastructure** | Docker · Git · Linux |
+| **Security & Reverse Engineering** | Burp Suite · Ghidra |
+| **Operating Systems** | Kali Linux · Ubuntu |
+| **Tools & Infrastructure** | Docker · Git |
 
 <br />
 
