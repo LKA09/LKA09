@@ -23,9 +23,10 @@
 | | |
 | :-- | :-- |
 | **Backend** | Node.js · NestJS · Spring Boot · Python · Java |
+| **Frontend** | Next.js · Remix · React |
+| **Languages** | Rust · Python · TypeScript · JavaScript · Java · SQL |
 | **Data** | PostgreSQL · Supabase · Firebase |
 | **Infrastructure** | Docker · Git · Linux |
-| **Also work with** | TypeScript · React · Next.js |
 
 <br />
 
