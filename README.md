@@ -2,7 +2,7 @@
 
 <h1>LKA09</h1>
 
-<strong>Backend Developer</strong>
+<strong>Backend Developer && security</strong>
 
 <sub>APIs · Databases · Systems · Open Source</sub>
 
