@@ -18,15 +18,15 @@
 
 ### Tech Stack
 
-| Area | Technologies |
+| 분야 | 기술 |
 | :-- | :-- |
-| **Languages** | Rust · Python · TypeScript · JavaScript · Java · SQL |
-| **Frontend** | Next.js · Remix · React |
-| **Backend** | Node.js · NestJS · Spring Boot |
-| **Database & Services** | PostgreSQL · Supabase · Firebase |
-| **Security & Reverse Engineering** | Burp Suite · Ghidra |
-| **Operating Systems** | Kali Linux · Ubuntu |
-| **Tools & Infrastructure** | Docker · Git |
+| **프로그래밍 언어** | <img src="https://skillicons.dev/icons?i=rust,py,ts,js,java&theme=dark" alt="Rust, Python, TypeScript, JavaScript, Java" height="36" /> <img src="https://img.shields.io/badge/SQL-30363D?style=flat-square" alt="SQL" /> |
+| **웹 프론트엔드** | <img src="https://skillicons.dev/icons?i=nextjs,remix,react&theme=dark" alt="Next.js, Remix, React" height="36" /> |
+| **백엔드** | <img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring&theme=dark" alt="Node.js, NestJS, Spring Boot" height="36" /> |
+| **데이터베이스 & 서비스** | <img src="https://skillicons.dev/icons?i=postgres,supabase,firebase&theme=dark" alt="PostgreSQL, Supabase, Firebase" height="36" /> |
+| **보안 & 리버스 엔지니어링** | <img src="https://img.shields.io/badge/Burp%20Suite-EF5B25?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" /> <img src="https://img.shields.io/badge/Ghidra-30363D?style=flat-square" alt="Ghidra" /> |
+| **개발 도구** | <img src="https://skillicons.dev/icons?i=docker,git&theme=dark" alt="Docker, Git" height="36" /> |
+| **운영체제** | <img src="https://skillicons.dev/icons?i=kali,ubuntu&theme=dark" alt="Kali Linux, Ubuntu" height="36" /> |
 
 <br />
 
